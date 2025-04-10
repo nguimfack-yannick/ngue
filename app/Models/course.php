@@ -10,7 +10,7 @@ class Course extends Model  // Remarquez que le nom de la classe commence par un
 
     protected $fillable = [
         "name",
-        "descriptions",
+        "description",
     ];
 
     // Relation avec les examens (un cours peut avoir plusieurs examens)

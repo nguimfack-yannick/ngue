@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Ngue Ngan Exam')</title>
+    <title>@yield('title', 'Ngue Ngan Result')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" defer></script>
     <link rel="shortcut icon" href="{{ asset('images/logi.jpg') }}" type="image/x-icon">

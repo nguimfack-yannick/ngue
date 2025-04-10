@@ -42,7 +42,7 @@
         <nav class="space-x-4 hidden md:flex">
             <a href="{{ url('/') }}" class="px-4 py-2 bg-teal-600 rounded-lg hover:bg-teal-500 transition">Accueil</a>
             <a href="#about" class="px-4 py-2 bg-teal-600 rounded-lg hover:bg-teal-500 transition">À propos</a>
-            <a href="{{ route('showResultat') }}" class="px-4 py-2 bg-teal-600 rounded-lg hover:bg-teal-500 transition">Résultats</a>
+            {{-- <a href="{{ route('showResultat') }}" class="px-4 py-2 bg-teal-600 rounded-lg hover:bg-teal-500 transition">Résultats</a> --}}
             <a href="#" class="px-4 py-2 bg-teal-600 rounded-lg hover:bg-teal-500 transition">Témoignages</a>
             <a href="#" class="px-4 py-2 bg-teal-600 rounded-lg hover:bg-teal-500 transition">Contact</a>
         </nav>
